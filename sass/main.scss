@@ -1,0 +1,13 @@
+@import "reset";
+@import "variables";
+
+html {
+    background: $lighter-purple;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 70%;
+}
+
+@import "cards";
+@import "header";
+@import "nav";

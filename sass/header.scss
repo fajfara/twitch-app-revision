@@ -1,0 +1,39 @@
+.header {
+    height: 100vh; 
+    text-align: center;
+    position: relative;
+    background-color: $lighter-purple;
+    background-image: url('https://images.unsplash.com/photo-1487640228478-7a32e30a9e40?ixlib=rb-0.3.5&s=28e0f537a55e57c42cdfad742c62c757&auto=format&fit=crop&w=1050&q=80');
+    background-size: 100%;
+    background-position-y: -10rem;
+
+    & h1 {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 8rem;
+        color: $light-beige;
+        text-transform: uppercase;
+        letter-spacing: 2rem;
+    }
+
+    & .printers {
+        text-shadow:
+          0 1px 0px $main-purple,
+          1px 0 0px $main-purple-lighter,
+          1px 2px 1px $main-purple,
+          2px 1px 1px $main-purple-lighter,
+          2px 3px 2px $main-purple,
+          3px 2px 2px $main-purple-lighter,
+          3px 4px 2px $main-purple,
+          4px 3px 3px $main-purple-lighter,
+          4px 5px 3px $main-purple,
+          5px 4px 2px $main-purple-lighter,
+          5px 6px 2px $main-purple,
+          6px 5px 2px $main-purple-lighter,
+          6px 7px 1px $main-purple,
+          7px 6px 1px $main-purple-lighter,
+          7px 8px 0px $main-purple,
+          8px 7px 0px $main-purple-lighter;
+      }
+}
